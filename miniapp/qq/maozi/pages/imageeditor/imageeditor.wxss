@@ -1,0 +1,71 @@
+.container{
+  height:300px;
+  width:100%;
+}
+.bg{
+  position: absolute;
+  z-index:0;
+  height: 300px;
+  width:300px;
+}
+button{
+  margin-top:10px;
+
+}
+.hat{ 
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  border: dashed 2px yellow;
+  top:100px;
+}
+.handle,.cancel{
+  position: absolute;
+  z-index: 1;
+  width:20px;
+  height:20px;
+}
+.scrollView{
+   width: 100%; 
+   position: absolute;
+    margin-top: 1%;
+   white-space: nowrap;
+}
+.imgList{
+  height: 70px;
+  width: 70px;
+  border:2px solid;
+  margin: 5px;
+}
+.zhizuo{
+  width: 85%;
+  margin-top: 5%;
+  background-color: greenyellow;
+}
+.tishi{
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: red;
+  margin-bottom: 3%;
+}
+
+
+/* 下面是广告 */
+.index_ad{
+  
+  display:flex; 
+   justify-content:center; 
+   align-items:center;
+   margin-top: 20rpx;
+}
+
+
+.index_ad_tx{
+  border-radius: 20rpx;
+  display:flex; 
+  justify-content:center; 
+  align-items:center;
+  margin-bottom: 10rpx;
+}

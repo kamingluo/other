@@ -1,0 +1,14 @@
+/* pages/carViolation/carViolation.wxss */
+.empty{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150rpx;
+  box-sizing: border-box;
+}
+
+.emptypng{
+  width: 300rpx;
+  height: 300rpx;
+}

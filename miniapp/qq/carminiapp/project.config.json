@@ -1,0 +1,79 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true,
+		"remoteDebugLogEnable": false,
+		"sourcemapDisabled": true,
+		"useAlphaLib": true,
+		"nodeModules": true,
+		"uglifyFileName": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.2",
+	"appid": "wxa47bf5fe7f026481",
+	"projectname": "wxcarminiapp",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"qqappid": "1109683394",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "师傅分享",
+					"pathName": "pages/index/index",
+					"query": "channel=10000&master_id=100",
+					"scene": 1007
+				},
+				{
+					"id": -1,
+					"name": "违章查询结果页面",
+					"pathName": "pages/carViolation/carViolation",
+					"query": "channel=10000&master_id=100",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "违章填写车辆",
+					"pathName": "pages/queryviolation/queryviolation",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

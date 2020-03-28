@@ -1,0 +1,36 @@
+<!--index.wxml-->
+<view class="container index-wrap">
+  <view class='index-head-wrap'>
+    <text class='index-head-text'>鼠年是人生的转折点,最有望咸鱼翻身!</text>
+    <text class='index-head-text' style='margin-top:12rpx;'>不同的姓名都预示着不同的运势</text>
+  </view>
+  <view>
+    <image class='index-head-slogan-img' src='{{indexHeadBgSrc}}'></image>
+  </view>
+
+  <view class='index-head-input-wrap'>
+    <image class='index-head-input-img' src='{{indexHeadInputBgSrc}}'></image>
+    <view class='index-head-input-context'>
+      <text class='index-head-text index-head-input-title'>请输入你的名字</text>
+      <input class='fortune-input'  maxlength="6" bindinput="bindNameInput" style='text-align:center;'></input>
+      <button class='btn' style='margin-top:56rpx;width:324rpx;' bindtap="getUserFortune"> 测一测 </button>
+      <text class='index-head-text index-head-input-title-desc'>点击[测一测]按钮，查看你的鼠年运势</text>
+    </view>
+  </view>
+
+    <!-- 广点通banner广告开始-->
+
+  <view class='gdtad'>
+    <ad  data-adid="d8bdb63c791f296d30a9284c43f41f65" unit-id="d8bdb63c791f296d30a9284c43f41f65"></ad>
+  </view>
+
+<!-- 广点通banner广告结束-->
+
+<!--  
+   <view class='kong'>
+   
+  </view> -->
+  
+</view>
+
+

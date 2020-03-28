@@ -1,0 +1,139 @@
+<cu-custom bgColor="bg-gradual-blue">
+  <view slot="content">快递查询</view>
+</cu-custom>
+
+<view bindtap='allfunction'>
+  <!-- 全局页面开始 -->
+
+  <view>
+    <swiper class="screen-swiper round-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+      <swiper-item wx:for="{{swiperList}}" wx:key>
+        <image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+        <video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+      </swiper-item>
+    </swiper>
+  </view>
+
+
+
+
+  <view class="cu-form-group input  ">
+    <view class="title">快递单号</view>
+    <input bindinput="expressnumber" focus="{{inputShowed}}" maxlength='20' placeholder="请输入快递单号"></input>
+    <image bindtap='expressScancode' class='scancode' src='/images/scancode.svg'></image>
+  </view>
+
+  <view class='querybutton centered '>
+    <button bindtap='querydata'>立即查询</button>
+  </view>
+
+
+
+  <view class='myexpressdata' wx:if="{{userexpressdata.length>0}}">
+    <view class='centered'>
+      <view class='myexpresstitle'>我的快递</view>
+      <view class='deleteallexpress' bindtap='deleteallexpress'>
+        <image src='/images/delete.svg'></image>
+      </view>
+    </view>
+
+    <view class='centered' wx:for="{{userexpressdata}}" wx:key="content" wx:for-index="key">
+      <view class="card radius shadow-warp bg-white centered  " hidden='{{item.hidden}}' bindtap='query' data-index='{{key}}' data-number='{{item.expressNumber}}' bindlongpress="handleLongPress">
+        <view class='card-left centered'>
+          <image src='/images/baoguo.svg'></image>
+        </view>
+        <view class='card-center '>
+          <view class='carname'>{{item.expressName}}</view>
+          <view class='carnumber'>{{item.expressNumber}}</view>
+        </view>
+
+        <view hidden='{{!item.hidden2}}' class='listdetele'>
+          <button catchtap='hideuserexpresslistdata' class=' centered' data-index='{{key}}' plain='true' data-number='{{item.expressNumber}}'>
+            <text>删除</text>
+            <image src='../../images/bubble.svg'> </image>
+          </button>
+        </view>
+
+        <view class='card-right centered'>
+          <!-- <view hidden='{{!item.hidden}}' >
+          <button bindtap='query' class='listquerybutton centered' data-number='{{item.expressNumber}}'>查询</button>
+        </view> -->
+          <view catchtap='toDetial'>
+            <button open-type='share' class='listsharebutton centered' data-number='{{item.expressNumber}}' data-name='{{item.expressName}}'>分享单号</button>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class='centered  theend '>
+      <text>-------已经到底了-------</text>
+    </view>
+
+  </view>
+
+
+  <!-- 当用户没有快递信息的时候 -->
+  <view wx:else class='centered '>
+    <view class=' notexpress'>
+      <view>
+        <image src='/images/default.png'></image>
+      </view>
+      <view> 您还无快递信息,请
+        <text bindtap='inputShowed'> 输入单号查询</text>
+      </view>
+    </view>
+  </view>
+
+</view>
+<!-- 全局页面结束 -->
+
+
+
+
+
+<!-- 广点通卡片广告开始-->
+<view class='centered'>
+  <view class='gdtad'>
+   <ad unit-id="49a6ff00914757e7a94f93c275538fb2" type="card"></ad>
+  </view>
+</view>
+<!-- 广点通卡片广告结束-->
+
+
+
+<!-- 自定义第三方广告 -->
+<view class='miniappad' wx:if="{{indexminiappdata.length>0}}">
+  <view class=' centered' wx:for="{{indexminiappdata}}" wx:key="item">
+    <view data-data='{{item}}' bindtap='miniappadclick'>
+      <image src='{{item.imgurl}}'></image>
+    </view>
+  </view>
+</view>
+
+
+
+
+<!-- 确认删除提示 -->
+<view class="cu-modal {{modalName=='DialogModal1'?'show':''}}">
+  <view class="cu-dialog">
+    <view class="cu-bar bg-white justify-end">
+      <view class="content">删除信息</view>
+      <view class="action" bindtap="hideModal">
+        <text class="cuIcon-close text-red"></text>
+      </view>
+    </view>
+    <view class="padding-xl">
+      <text class='deleteallexpresstips'>将删除你的所有快递信息</text>
+    </view>
+    <view class="cu-bar bg-white justify-end">
+      <view class="action">
+        <button class="cu-btn line-green text-green" bindtap="hideModal">取消</button>
+        <button class="cu-btn bg-green margin-left" bindtap="deleteallexpressclick">确定</button>
+
+      </view>
+    </view>
+  </view>
+</view>
+
+
+

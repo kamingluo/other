@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/result/result"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "ColorUI",
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "white"
+  },
+"navigateToMiniProgramAppIdList": [
+  "wx0caea43291f08445",
+  "wx8746e250c8debc3b",
+  "wxb4248cc09899d623",
+  "wx49d951027c954db5",
+  "wx14d5d823d9b58b82",
+  "wx40e1deeb15661e8a",
+  "wx557032571e1d8949",
+  "wx8c51ada85d123059",
+  "wx83eeb27c47a892e7",
+  "wx7c1c4e5eeebf3d21"
+],
+  "sitemapLocation": "sitemap.json"
+}

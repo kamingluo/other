@@ -1,0 +1,155 @@
+.input {
+  margin-top: 20rpx;
+  width: 94%;
+  margin-left: 3%;
+}
+
+.scancode {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.querybutton {
+  margin-top: 20rpx;
+}
+
+.querybutton button {
+  width: 500rpx;
+  background-color: #1787e8;
+  color: white;
+}
+
+.myexpressdata {
+  margin-top: 40rpx;
+}
+
+.myexpresstitle {
+  font-size: 40rpx;
+  font-weight: 700;
+  margin-bottom: 40rpx;
+}
+
+.deleteallexpress {
+  position: relative;
+  left: 25%;
+}
+
+.deleteallexpress image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.card {
+  display: flex;
+  justify-content: flex-start;
+  width: 94%;
+  margin-bottom: 10rpx;
+  height: 150rpx;
+}
+
+.card-left {
+  width: 25%;
+  height: 150rpx;
+}
+
+.card-left image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.card-center {
+  width: 50%;
+  height: 150rpx;
+  margin-left: 10rpx;
+}
+.carname{
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+
+.carnumber {
+  margin-top: 20rpx;
+  font-size: 35rpx;
+  font-weight: 600;
+  margin-bottom: 20rpx;
+}
+
+.card-right {
+  width: 25%;
+  height: 150rpx;
+  font-size: 30rpx;
+}
+
+.listquerybutton {
+  background-color: #ffc125;
+  color: white;
+  font-size: 28rpx;
+  width: 150rpx;
+  height: 60rpx;
+  margin-top: 10rpx;
+}
+
+.listdetele{
+ position: absolute;
+  left: 360rpx;
+  top: -30rpx;
+}
+.listdetele image{
+   width: 130rpx;
+  height: 130rpx;
+}
+.listdetele button{
+  border:none;
+}
+.listdetele text{
+  position: absolute;
+  left: 55rpx;
+  font-weight: 600;
+
+}
+.listsharebutton {
+  background-color: #3cb371;
+  color: white;
+  font-size: 26rpx;
+  width: 170rpx;
+  height: 70rpx;
+  font-weight: 600;
+  margin-right: 10rpx;
+}
+
+.theend text {
+  color: #bebebe;
+}
+
+.deleteallexpresstips {
+  font-size: 45rpx;
+  font-weight: 600;
+}
+
+.notexpress image{
+  width: 400rpx;
+  height: 300rpx;
+}
+.notexpress text{
+    color: #1787e8;
+    font-weight: 600;
+     text-decoration-line: underline;
+}
+
+.gdtad{
+  width: 98%;
+  border-radius: 15rpx;
+  margin-top: 10rpx;
+}
+
+.miniappad{
+  margin-top: 20rpx;
+}
+.miniappad image {
+  width: 700rpx;
+  height: 200rpx;
+  border-radius: 15rpx;
+}
+

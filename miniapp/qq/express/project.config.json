@@ -1,0 +1,84 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.4.2",
+	"appid": "wxf1f0d92f69dd80db",
+	"projectname": "express",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"qqappid": "1109605951",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 1,
+			"list": [
+				{
+					"id": 0,
+					"name": "分享进入",
+					"pathName": "pages/index/index",
+					"query": "channel=10000&master_id=100",
+					"scene": 1007
+				},
+				{
+					"id": 1,
+					"name": "模拟更新",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 2,
+					"name": "模拟分享进入",
+					"pathName": "pages/index/index",
+					"query": "expressName=测试名称&expressNumber=3961577121845",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "长按识别二维码",
+					"pathName": "pages/index/index",
+					"query": "expressName=测试名称&expressNumber=3961577121845",
+					"scene": 1012
+				},
+				{
+					"id": 4,
+					"name": "微量进入",
+					"pathName": "pages/index/index",
+					"query": "ald_link_key=3b398f28d943df2e&ald_media_id=18607&channel=1000&_wlp=99c07a09718adbc5b57f",
+					"scene": 1048
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/maozi/index",
+    "pages/imageeditor/imageeditor",
+    "pages/combine/combine"
+  ],
+  "window": {
+    "backgroundTextStyle": "#ffffff",
+    "navigationBarBackgroundColor": "#1cbbb4",
+    "navigationBarTitleText": "我要圣诞帽",
+    "navigationBarTextStyle": "white"
+  },
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+    },
+    "debug": true,
+   "navigateToMiniProgramAppIdList": [
+    ]
+}

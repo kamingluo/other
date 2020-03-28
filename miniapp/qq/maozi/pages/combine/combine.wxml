@@ -1,0 +1,17 @@
+<view >
+<view>
+ <canvas  class="myCanvas" canvas-id="myCanvas" style="height:300px;;width:100%;"/>
+</view>
+ 
+<view class='anniu' >
+<view > <button  class='anniu1'  bind:tap="savePic">保存至相册</button></view>
+
+<view ><button class='anniu2' open-type="share" >分享给朋友</button></view>
+<view> <button class='anniu3'   bindtap='fanhui'  >回到首页</button></view>
+</view>
+  
+</view>
+
+<view class="index_ad">
+<ad unit-id="fa324024c59a600427ab73286c201032"></ad>
+</view>

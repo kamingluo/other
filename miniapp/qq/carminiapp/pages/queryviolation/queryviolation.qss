@@ -1,0 +1,45 @@
+.toptitle{
+  height:80rpx;
+  background-color:#C8E1F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toptitle text{
+  font-size: 30rpx;
+  color: #1787E8;
+}
+.form{
+  
+}
+.carcity{
+  width: 100%;
+  position:fixed;
+  bottom:0px;
+  z-index:9999;
+}
+.carcitybody {
+	display: flex;
+	flex-wrap: wrap;
+  width: 100%;
+}
+.city{
+  width:12.5%;
+  background-color: SteelBlue;
+  box-shadow: 1px 1px 1px 3px ;
+}
+
+.abbreviation{
+  font-size: 35rpx;
+  margin-right: 5rpx;
+  margin-left: 15rpx;
+}
+.carnumber{
+  margin-left: 25rpx;
+}
+.querybutton{
+  margin-top: 8%;
+  width: 80%;
+  background-color: #1787E8;
+  color: white;
+}

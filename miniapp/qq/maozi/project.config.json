@@ -1,0 +1,101 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false,
+		"remoteDebugLogEnable": false,
+		"uploadWithSourceMap": true,
+		"nodeModules": true,
+		"uglifyFileName": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.5.2",
+	"appid": "wxd53f125c7e4c7d44",
+	"projectname": "%E5%9C%A3%E8%AF%9E%E5%B8%BD",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"qqappid": "1110042553",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 5,
+			"list": [
+				{
+					"id": -1,
+					"name": "测试",
+					"pathName": "pages/chengxuyuan/chengxuyuan",
+					"query": "channal=999999",
+					"scene": "1011"
+				},
+				{
+					"id": 1,
+					"name": "普通",
+					"pathName": "pages/index/index",
+					"query": "channel=999999&id=10045",
+					"scene": "1014"
+				},
+				{
+					"id": 2,
+					"name": "爱较真平台",
+					"pathName": "pages/jiayemian/jiayemian",
+					"query": "",
+					"scene": "1001"
+				},
+				{
+					"id": 3,
+					"name": "固定页面",
+					"pathName": "pages/erweima/erweima",
+					"query": "",
+					"scene": "1089"
+				},
+				{
+					"id": -1,
+					"name": "erweima",
+					"pathName": "pages/index/index",
+					"query": "",
+					"scene": "1011"
+				},
+				{
+					"id": -1,
+					"name": "其他小程序",
+					"pathName": "pages/game/game",
+					"query": "",
+					"scene": "1037",
+					"referrerInfo": {
+						"appId": "wxc335c3cf09a7a39c",
+						"extraData": "{}"
+					}
+				}
+			]
+		}
+	}
+}

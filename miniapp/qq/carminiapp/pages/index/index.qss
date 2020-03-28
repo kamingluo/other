@@ -1,0 +1,75 @@
+
+
+.mycardata{
+  margin-top: 40rpx;
+}
+.mycartitle{
+  font-size: 40rpx;
+  font-weight: 700;
+}
+.card{
+  display: flex;
+  justify-content: flex-start;
+  width:94%;
+  margin-top: 10rpx;
+  height: 180rpx;
+}
+
+.card-left{
+  width: 25%;
+  height: 150rpx;
+}
+.card-left image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.card-center{
+   width: 50%;
+  height: 150rpx;
+  margin-left: 10rpx;
+}
+.carnumber{
+  margin-top: 20rpx;
+  font-size: 35rpx;
+  font-weight: 600;
+}
+.card-right{
+   width: 25%;
+  height: 150rpx;
+  font-size: 30rpx;
+}
+.card-right button{
+  background-color:  #1787E8;
+  color: white;
+  font-size: 28rpx;
+  width: 150rpx;
+  height: 70rpx;
+}
+
+.addcarbutton{
+  width: 60%;
+  margin-top: 30rpx;
+}
+
+.nocaraddcar{
+  text-align: center;
+  width: 94%;
+  height: 250rpx;
+  margin-top: 30rpx;
+}
+.nocaraddcar image {
+  margin-top: 35rpx;
+  width: 130rpx;
+  height: 130rpx;
+}
+.nocaraddcar-text{
+  margin-top: 1%;
+  font-size: 35rpx;
+}
+
+.gdtad{
+  width: 100%;
+  border-radius: 15rpx;
+  margin-bottom: 20rpx;
+  margin-top: 15rpx;
+}

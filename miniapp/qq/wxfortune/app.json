@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/fortune-result/fortune-result"   
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "2020运势",
+    "backgroundColor": "#000000",
+    "navigationBarTextStyle": "black"
+  }
+}

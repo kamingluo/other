@@ -1,0 +1,64 @@
+/* pages/combine/combine.wxss */
+.myCanvas{
+  margin-top:10rpx;
+}
+.anniu{
+  margin-top: 8%;
+}
+.anniu button{
+  width: 80%;
+}
+.anniu1{
+  background-color: #0081ff;
+  color: white;
+}
+.anniu2{
+  margin-top: 2%;
+  background-color: #39b54a;
+  color: white;
+}
+.anniu3{
+  margin-top: 2%;
+  background-color:#fbbd08;
+  color:#ffffff;
+}
+/* kefu */
+.yaoqing{
+  position: fixed;
+  top: 900rpx;
+  right: 0rpx;
+
+}
+.yaoqing button{
+position: absolute;
+width: 120rpx;
+height: 120rpx;
+opacity:0;
+z-index:9999;
+}
+
+
+.yaoqing image{
+width: 120rpx;
+height: 120rpx;
+right: 0;
+}
+
+
+/* 下面是广告 */
+.index_ad{
+  
+  display:flex; 
+   justify-content:center; 
+   align-items:center;
+   margin-top: 20rpx;
+}
+
+
+.index_ad_tx{
+  border-radius: 20rpx;
+  display:flex; 
+  justify-content:center; 
+  align-items:center;
+  margin-bottom: 10rpx;
+}

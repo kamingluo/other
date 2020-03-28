@@ -1,0 +1,44 @@
+/* pages/fortune-result.wxss */
+.result-page{
+  height: 100%;
+  background-image: linear-gradient(-180deg, #0E128D 1%, #0B1068 55%);
+}
+.wrap {
+  height: auto;
+  min-height: 100%;
+  background-color: #080E3A;
+}
+.main { 
+  padding-bottom: 80px;
+}
+.footer{
+  margin-top: -170px;
+  display: flex;
+}
+
+.btn-layout{
+  flex: 1;
+}
+.btn-width{
+  width: 306rpx;
+}
+
+
+.gdtad{
+ width: 95%;
+ border-radius: 10rpx;
+ margin-bottom: 1rpx;
+}
+
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0E128D;
+}
+
+
+.adfooter{
+  display: flex;
+margin-top:20rpx;
+}
