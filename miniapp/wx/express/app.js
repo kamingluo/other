@@ -3,7 +3,7 @@ const ald = require('./utils/ald-stat.js')//接入阿拉丁统计
 const common = require('./utils/common.js') //公共函数
 const {request} = require('./utils/request.js')//公共请求方法
 var App = require('./utils/xmadx_sdk.min.js').xmad(App, 'App').xmApp;//小盟广告
-const wlad = require('./utils/wlad_sdk.min.js'); //微量小程序联盟
+// const wlad = require('./utils/wlad_sdk.min.js'); //微量小程序联盟
 
 App({
   globalData: {

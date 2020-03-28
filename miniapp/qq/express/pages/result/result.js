@@ -9,17 +9,7 @@ Page({
   data: {
     expressdata: '',
     fristdata: '',
-    lastdata: '',
-    xmad: {
-      adData: {},
-      ad: {
-        banner1: 'xm2336790407fe93c4f8691b536053f2',
-        banner2: "xm3c840278f42aec26746409d8c85d3e",
-        banner3: "xm4ff00778d90c0496fc0df8e4ecbd6b",
-        banner4: "xm6816a1df996a69067bc19e426a5c89",
-        banner5: "xm0eba53c3fbc3835425259ce973de28",
-      }
-    },
+    lastdata: ''
   },
 
   //加载框
@@ -32,7 +22,7 @@ Page({
   query: function (number) {
     var that = this
     wx.request({
-      url: 'https://www.gzywudao.top/api.php/express/express', //服务器地址
+      url: 'https://phpapi.gzywudao.top/api.php/express/express', //服务器地址
       data: {
         number: number,
       },

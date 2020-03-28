@@ -4,13 +4,17 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
-		"postcss": true,
+		"postcss": false,
 		"minified": true,
 		"newFeature": true,
-		"autoAudits": false,
-		"checkInvalidKey": true
+		"autoAudits": true,
+		"checkInvalidKey": true,
+		"nodeModules": true,
+		"uploadWithSourceMap": true,
+		"uglifyFileName": true,
+		"remoteDebugLogEnable": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.4.2",
@@ -23,6 +27,11 @@
 	"simulatorType": "wechat",
 	"simulatorPluginLibVersion": {},
 	"qqappid": "1109605951",
+	"scripts": {
+		"beforeCompile": "",
+		"beforePreview": "",
+		"beforeUpload": ""
+	},
 	"condition": {
 		"search": {
 			"current": -1,

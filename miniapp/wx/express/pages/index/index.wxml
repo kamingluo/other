@@ -136,12 +136,12 @@
 </view>
 
 <!-- 微量小程序banner广告 -->
-<view class='centered'>
+<!-- <view class='centered'>
   <view class="wl_banner xmad" style="background: #ffffff;color:#333;border-radius: 30rpx;">
     <wl-ad data-id="{{wlad.ad.banner[0]}}" adData="{{wlad.adData}}" bindclick="wladClick" bindclose="wladClose" class="wl_component">
     </wl-ad>
   </view>
-</view>
+</view> -->
 
 
 <!-- 确认删除提示 -->
