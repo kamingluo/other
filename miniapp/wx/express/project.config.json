@@ -13,7 +13,7 @@
 		"checkInvalidKey": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.4.2",
+	"libVersion": "2.14.1",
 	"appid": "wxf1f0d92f69dd80db",
 	"projectname": "express",
 	"debugOptions": {

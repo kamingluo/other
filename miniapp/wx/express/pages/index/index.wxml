@@ -66,7 +66,7 @@
       </view>
     </view>
 
-    <view class='centered  theend '   wx:if="{{userexpressdata.length>1}}">
+    <view class='centered  theend ' wx:if="{{userexpressdata.length>1}}">
       <text>-------已经到底了-------</text>
     </view>
 
@@ -108,40 +108,29 @@
 </view> -->
 
 <!-- 广点通视频广告 -->
-<view class='centered'>
+<!-- <view class='centered'>
   <view class='gdtad'>
    <ad unit-id="adunit-e7bd99705e3c2129" ad-type="video" ad-theme="white"></ad>
   </view>
+</view> -->
+
+
+
+<!-- 广点通moban广告正常 -->
+
+<view class='centered'>
+  <view class='gdtad'>
+    <ad-custom unit-id="adunit-ab1927680711f213"></ad-custom>
+  </view>
 </view>
 
-
 <!-- 广点通banner广告正常 -->
-<view class='centered'>
+<!-- <view class='centered'>
   <view class='gdtad'>
     <ad capture-bind:tap="gdtbanneradclick" class="gdtad" data-adid="adunit-66cc4c8b4d5f1941" unit-id="adunit-66cc4c8b4d5f1941"></ad>
   </view>
-</view>
-
-
-
-
-
-
-
-<!-- 小盟广告 -->
-<view class='centered'>
-  <view class="xm_banner xmad  ">
-    <xm-ad data-id="{{xmad.ad.banner1}}" adData="{{xmad.adData}}" bindadload="adImgLoad" bindclick="appoIntView" bindclose="xmadClose" class="xm_component  "> </xm-ad>
-  </view>
-</view>
-
-<!-- 微量小程序banner广告 -->
-<!-- <view class='centered'>
-  <view class="wl_banner xmad" style="background: #ffffff;color:#333;border-radius: 30rpx;">
-    <wl-ad data-id="{{wlad.ad.banner[0]}}" adData="{{wlad.adData}}" bindclick="wladClick" bindclose="wladClose" class="wl_component">
-    </wl-ad>
-  </view>
 </view> -->
+
 
 
 <!-- 确认删除提示 -->
@@ -215,34 +204,11 @@
 <view class='adbrush'>
   <!--广告暗刷开始-->
 
-  <view>
-    <!--小盟广告开始-->
-    <view>
-      <view class="xm_banner" style="width:100%">
-        <xm-ad data-id="{{xmad.ad.banner2}}" adData="{{xmad.adData}}" bindadload="adImgLoad" bindclick="appoIntView" bindclose="xmadClose" class="xm_component"> </xm-ad>
-      </view>
-    </view>
-    <view>
-      <view class="xm_banner" style="width:100%">
-        <xm-ad data-id="{{xmad.ad.banner3}}" adData="{{xmad.adData}}" bindadload="adImgLoad" bindclick="appoIntView" bindclose="xmadClose" class="xm_component"> </xm-ad>
-      </view>
-    </view>
-    <view>
-      <view class="xm_banner" style="width:100%">
-        <xm-ad data-id="{{xmad.ad.banner4}}" adData="{{xmad.adData}}" bindadload="adImgLoad" bindclick="appoIntView" bindclose="xmadClose" class="xm_component"> </xm-ad>
-      </view>
-    </view>
-    <view>
-      <view class="xm_banner" style="width:100%">
-        <xm-ad data-id="{{xmad.ad.banner5}}" adData="{{xmad.adData}}" bindadload="adImgLoad" bindclick="appoIntView" bindclose="xmadClose" class="xm_component"> </xm-ad>
-      </view>
-    </view>
-  </view>
-  <!--小盟广告结束-->
+
 
 
   <!-- banneradbrush开始 -->
-<!-- <view>
+  <!-- <view>
   <view class='centered' wx:if="{{gdtbannerposition.banneradposition2 && gdtbanneraddelay1 && !gdtbanneraddelay2}}">
     <view class='gdtad'>
       <ad capture-bind:tap="gdtbanneradclick" class="gdtad" data-adid="{{gdtbannerposition.banneradposition2}}" unit-id="{{gdtbannerposition.banneradposition2}}"></ad>
@@ -255,7 +221,7 @@
     </view>
   </view>
 </view> -->
- <!-- banneradbrush结束 -->
+  <!-- banneradbrush结束 -->
 
 
 
