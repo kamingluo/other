@@ -4,7 +4,6 @@
 
 <view bindtap='allfunction'>
   <!-- 全局页面开始 -->
-
   <view>
     <swiper class="screen-swiper round-dot" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
       <swiper-item wx:for="{{swiperList}}" wx:key>
@@ -13,23 +12,14 @@
       </swiper-item>
     </swiper>
   </view>
-
-
-
-
-
   <view class="cu-form-group input  ">
     <view class="title">快递单号</view>
     <input bindinput="expressnumber" focus="{{inputShowed}}" maxlength='20' placeholder="请输入快递单号"></input>
     <image bindtap='expressScancode' class='scancode' src='/images/scancode.svg'></image>
   </view>
-
   <view class='querybutton centered '>
     <button bindtap='querydata'>立即查询</button>
   </view>
-
-
-
   <view class='myexpressdata' wx:if="{{userexpressdata.length>0}}">
     <view class='centered'>
       <view class='myexpresstitle'>我的快递</view>
@@ -37,7 +27,6 @@
         <image src='/images/delete.svg'></image>
       </view>
     </view>
-
     <view class='centered' wx:for="{{userexpressdata}}" wx:key="content" wx:for-index="key">
       <view class="card radius shadow-warp bg-white centered  " hidden='{{item.hidden}}' bindtap='query' data-index='{{key}}' data-number='{{item.expressNumber}}' bindlongpress="handleLongPress">
         <view class='card-left centered'>
@@ -54,24 +43,23 @@
             <image src='../../images/bubble.svg'> </image>
           </button>
         </view>
-
         <view class='card-right centered'>
-          <!-- <view hidden='{{!item.hidden}}' >
-          <button bindtap='query' class='listquerybutton centered' data-number='{{item.expressNumber}}'>查询</button>
-        </view> -->
           <view catchtap='toDetial'>
             <button open-type='share' class='listsharebutton centered' data-number='{{item.expressNumber}}' data-name='{{item.expressName}}'>分享单号</button>
           </view>
         </view>
       </view>
     </view>
+<<<<<<< HEAD
 
     <view class='centered  theend ' wx:if="{{userexpressdata.length>1}}">
+=======
+    <view class='centered  theend '   wx:if="{{userexpressdata.length>1}}">
+>>>>>>> 907536e0033959ccccf001a9e307cb36707855f7
       <text>-------已经到底了-------</text>
     </view>
 
   </view>
-
 
   <!-- 当用户没有快递信息的时候 -->
   <view wx:else class='centered '>
